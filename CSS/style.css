@@ -1,0 +1,57 @@
+/* Custom CSS to add visual appeal */
+button {
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    position: relative;
+    left: 0;
+    transition-delay: .2s;
+    transition-duration: 1s;
+    color: black;
+    background-color: white;
+}
+
+body {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+}
+/* Two background colours, used to signify when the switch is on/off */
+#buttonOnOff {
+    height: 150px;
+    width: 300px;
+    background: #b4ddb4;
+    background: -moz-linear-gradient(left, #b4ddb4 0%, #83c783 0%, #52b152 49%, #52b152 50%, #ed2300 51%, #f42000 83%, #f72d00 100%);
+    background: -webkit-linear-gradient(left, #b4ddb4 0%,#83c783 0%,#52b152 49%,#52b152 50%,#ed2300 51%,#f42000 83%,#f72d00 100%);
+    background: linear-gradient(to right, #b4ddb4 0%,#83c783 0%,#52b152 49%,#52b152 50%,#ed2300 51%,#f42000 83%,#f72d00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#f72d00',GradientType=1 );
+
+}
+
+
+/* Switch on */
+#ON {
+    position: relative;
+    bottom: 100px;
+    left: 45px;
+    opacity: 0.5;
+    color: white;
+}
+
+/* Switch off */
+#OFF {
+    position: relative;
+    bottom: 135px;
+    left: 180px;
+    opacity: 0.5;
+    color: white;
+}
+
+/* When the activate class is triggered, apply the following: */
+.activate{
+    left: 150px;
+    background-color: yellow;
+    transition-timing-function: ease;
+    transition-duration: 0.8s;
+}
+
